@@ -27,8 +27,8 @@ const siteProps = {
   name: "Jonathen Cheng Yuzhe",
   title: "Computer Science Undergraduate",
   email: "jonathencheng86@gmail.com",
-  gitHub: "https://github.com/jonaturn/portfolio",
-  linkedIn: "https://www.linkedin.com/in/jonathen-cheng-03b3a2158/edit/forms/intro/new/?profileFormEntryPoint=PROFILE_SECTION",
+  gitHub: "jonaturn",
+  linkedIn: "jonathen-cheng-03b3a2158",
 };
 
 const primaryColor = "#4E567E";
