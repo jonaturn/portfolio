@@ -27208,7 +27208,28 @@ const App = ()=>{
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
                             path: "/",
-                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {}, void 0, false)
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {
+                                        name: siteProps.name,
+                                        title: siteProps.title
+                                    }, void 0, false, {
+                                        fileName: "src/App.jsx",
+                                        lineNumber: 56,
+                                        columnNumber: 13
+                                    }, void 0),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
+                                        fileName: "src/App.jsx",
+                                        lineNumber: 57,
+                                        columnNumber: 13
+                                    }, void 0),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
+                                        fileName: "src/App.jsx",
+                                        lineNumber: 58,
+                                        columnNumber: 13
+                                    }, void 0)
+                                ]
+                            }, void 0, true)
                         }, void 0, false, {
                             fileName: "src/App.jsx",
                             lineNumber: 55,
@@ -27225,27 +27246,9 @@ const App = ()=>{
                 lineNumber: 50,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {
-                name: siteProps.name,
-                title: siteProps.title
-            }, void 0, false, {
-                fileName: "src/App.jsx",
-                lineNumber: 60,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
-                fileName: "src/App.jsx",
-                lineNumber: 61,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
-                fileName: "src/App.jsx",
-                lineNumber: 62,
-                columnNumber: 7
-            }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 63,
+                lineNumber: 62,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {
@@ -27254,14 +27257,14 @@ const App = ()=>{
                 secondaryColor: secondaryColor
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 64,
+                lineNumber: 63,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.jsx",
         lineNumber: 49,
-        columnNumber: 5
+        columnNumber: 6
     }, undefined);
 };
 _c = App;
@@ -28934,7 +28937,7 @@ const imageAltText = "Photo of my NP robotics team with our robot";
     {
         title: "Bartending",
         description: "Pursuing the art of mixology at a bespoke, speakeasy bar.",
-        url: ""
+        url: "/Bartending"
     }
 ];
 const Portfolio = ()=>{
