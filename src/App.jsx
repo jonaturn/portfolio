@@ -53,12 +53,13 @@ const App = () => {
           <Bartending />
           </>} />
           <Route path="/" element={<>
-            <Home name={siteProps.name} title={siteProps.title} />
-            <About />
-            <Portfolio />   
+            
           </>} />
         </Routes>
       </Router>
+      <Home name={siteProps.name} title={siteProps.title} />
+      <About />
+      <Portfolio />   
       <Header />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
