@@ -11,8 +11,18 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
+import Bartending from "./Bartending";
+
+//Routing
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Switch,
+} from "react-router-dom";
 
 import "./styles.css";
+
 
 /**
  * This object represents your information. The project is set so that you
@@ -37,10 +47,19 @@ const secondaryColor = "#D2F1E4";
 const App = () => {
   return (
     <div id="main">
+      <Router>
+        <Routes>
+          <Route path="/Bartending" element={<>
+          <Bartending />
+          </>} />
+          <Route path="/" element={<>
+            <Home name={siteProps.name} title={siteProps.title} />
+            <About />
+            <Portfolio />   
+          </>} />
+        </Routes>
+      </Router>
       <Header />
-      <Home name={siteProps.name} title={siteProps.title} />
-      <About />
-      <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );

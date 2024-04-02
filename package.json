@@ -1,7 +1,7 @@
 {
-  "name": "educator-js-codespace-template",
+  "name": "jonathen",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "Jonathen's Portfolio",
   "source": "src/index.html",
   "homepage": "https://jonaturn.github.io/portfolio",
   "scripts": {
@@ -22,7 +22,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
     "eslint": "^8.23.0",

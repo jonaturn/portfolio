@@ -21,7 +21,7 @@ import React from "react";
  */
 import image from "../images/photo1711899355.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Photo of my NP robotics team with our robot";
 
 /**
  * Project list
@@ -57,7 +57,7 @@ const projectList = [
   {
     title: "Bartending",
     description: "Pursuing the art of mixology at a bespoke, speakeasy bar.",
-    url: "",
+    url: "/Bartending",
   }
 ];
 
@@ -76,7 +76,8 @@ const Portfolio = () => {
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
+              {/*<a href={project.url} target="_blank" rel="noopener noreferrer">*/}
+              <a href={project.url}>
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               </a>
               <p className="small">{project.description}</p>
