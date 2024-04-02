@@ -57,7 +57,7 @@ const projectList = [
   {
     title: "Bartending",
     description: "Pursuing the art of mixology at a bespoke, speakeasy bar.",
-    url: "",
+    url: "/Bartending",
   }
 ];
 
