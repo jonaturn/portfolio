@@ -18,7 +18,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Switch,
 } from "react-router-dom";
 
 import "./styles.css";
@@ -52,7 +51,7 @@ const App = () => {
           <Route path="/Bartending" element={<>
           <Bartending />
           </>} />
-          <Route path="/" element={<>
+          <Route path="/npm" element={<>
             <Home name={siteProps.name} title={siteProps.title} />
             <About />
             <Portfolio />   
